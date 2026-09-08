@@ -1,0 +1,40 @@
+{
+  "same_seed": 42,
+  "different_gpus": true,
+  "identical_weights": false,
+  "differing_tensors": 486,
+  "largest_differences": [
+    [
+      "backbone.0.projector.stages.0.0.m.0.cv1.conv.weight",
+      0.0010520797222852707
+    ],
+    [
+      "backbone.0.projector.stages.0.0.m.0.cv2.conv.weight",
+      0.0010362807661294937
+    ],
+    [
+      "backbone.0.projector.stages.0.0.m.1.cv1.conv.weight",
+      0.0009912345558404922
+    ],
+    [
+      "backbone.0.projector.stages.0.0.m.1.cv2.conv.weight",
+      0.0009695738554000854
+    ],
+    [
+      "backbone.0.projector.stages.0.0.cv1.conv.weight",
+      0.0009422078728675842
+    ],
+    [
+      "transformer.enc_out_bbox_embed.8.layers.0.weight",
+      0.0009201020002365112
+    ],
+    [
+      "backbone.0.projector.stages.0.0.m.2.cv2.conv.weight",
+      0.0009132437407970428
+    ],
+    [
+      "backbone.0.projector.stages.0.0.m.1.cv2.bn.weight",
+      0.0009068846702575684
+    ]
+  ]
+}

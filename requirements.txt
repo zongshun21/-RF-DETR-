@@ -1,0 +1,7 @@
+-e ./third_party/rfdetr-1.10.0[train]
+torch==2.7.1
+torchvision==0.22.1
+numpy<3
+pyyaml>=6,<7
+tensorboard>=2.13
+pytest>=8,<10

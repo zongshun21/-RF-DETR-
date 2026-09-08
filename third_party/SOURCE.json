@@ -1,0 +1,8 @@
+{
+  "upstream": "https://github.com/roboflow/rf-detr",
+  "version": "1.10.0",
+  "source_url": "https://files.pythonhosted.org/packages/e0/6f/56409d0f79f60b1d3764cdd7c17c225f6aeca0a4df09f2a053aad78c9d93/rfdetr-1.10.0.tar.gz",
+  "sha256": "038b540fc22589318a143fda6d8694a9157f6670bbb918ec065f5a258148dc3f",
+  "editable_source": "third_party/rfdetr-1.10.0",
+  "reason": "Official PyPI source distribution; GitHub git connection unavailable."
+}

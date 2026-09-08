@@ -1,0 +1,330 @@
+{
+  "source": "<INSPLAD_ROOT>",
+  "test_split": null,
+  "smoke_subset": false,
+  "duplicate_policy": "exclude",
+  "limit": null,
+  "train": {
+    "images": 7981,
+    "annotations": 22635,
+    "unique_image_files": 7935,
+    "duplicate_filenames": {
+      "331-2_DJI_0189.jpg": [
+        4474,
+        6669
+      ],
+      "331-2_DJI_0190.jpg": [
+        4475,
+        6670
+      ],
+      "331-2_DJI_0191.jpg": [
+        4476,
+        6671
+      ],
+      "331-2_DJI_0192.jpg": [
+        4477,
+        6672
+      ],
+      "331-2_DJI_0193.jpg": [
+        4478,
+        6673
+      ],
+      "331-2_DJI_0196.jpg": [
+        4481,
+        6674
+      ],
+      "331-2_DJI_0197.jpg": [
+        4482,
+        6675
+      ],
+      "331-2_DJI_0198.jpg": [
+        4483,
+        6676
+      ],
+      "331-2_DJI_0199.jpg": [
+        4484,
+        6677
+      ],
+      "331-2_DJI_0200.jpg": [
+        4485,
+        6678
+      ],
+      "331-2_DJI_0201.jpg": [
+        4486,
+        6679
+      ],
+      "331-2_DJI_0202.jpg": [
+        4487,
+        6680
+      ],
+      "331-2_DJI_0203.jpg": [
+        4488,
+        6681
+      ],
+      "331-2_DJI_0204.jpg": [
+        4489,
+        6682
+      ],
+      "331-2_DJI_0205.jpg": [
+        4490,
+        6683
+      ],
+      "331-2_DJI_0206.jpg": [
+        4491,
+        6684
+      ],
+      "331-2_DJI_0207.jpg": [
+        4492,
+        6685
+      ],
+      "330-1_DJI_0035.jpg": [
+        5523,
+        6462
+      ],
+      "330-1_DJI_0036.jpg": [
+        5524,
+        6463
+      ],
+      "330-1_DJI_0037.jpg": [
+        5525,
+        6464
+      ],
+      "330-1_DJI_0038.jpg": [
+        5526,
+        6465
+      ],
+      "330-1_DJI_0039.jpg": [
+        5527,
+        6466
+      ],
+      "330-1_DJI_0040.jpg": [
+        5528,
+        6467
+      ],
+      "330-1_DJI_0041.jpg": [
+        5529,
+        6468
+      ],
+      "330-1_DJI_0042.jpg": [
+        5530,
+        6469
+      ],
+      "330-1_DJI_0043.jpg": [
+        5531,
+        6470
+      ],
+      "330-1_DJI_0044.jpg": [
+        5532,
+        6471
+      ],
+      "330-1_DJI_0045.jpg": [
+        5533,
+        6472
+      ],
+      "330-1_DJI_0046.jpg": [
+        5534,
+        6473
+      ],
+      "330-1_DJI_0049.jpg": [
+        5535,
+        6476
+      ],
+      "330-1_DJI_0050.jpg": [
+        5536,
+        6477
+      ],
+      "330-1_DJI_0051.jpg": [
+        5537,
+        6478
+      ],
+      "330-1_DJI_0052.jpg": [
+        5538,
+        6479
+      ],
+      "330-1_DJI_0053.jpg": [
+        5539,
+        6480
+      ],
+      "330-1_DJI_0054.jpg": [
+        5540,
+        6481
+      ],
+      "330-1_DJI_0055.jpg": [
+        5541,
+        6482
+      ],
+      "330-1_DJI_0056.jpg": [
+        5542,
+        6483
+      ],
+      "330-1_DJI_0057.jpg": [
+        5543,
+        6484
+      ],
+      "330-1_DJI_0058.jpg": [
+        5544,
+        6485
+      ],
+      "330-1_DJI_0059.jpg": [
+        5545,
+        6486
+      ],
+      "330-1_DJI_0060.jpg": [
+        5546,
+        6487
+      ],
+      "330-1_DJI_0061.jpg": [
+        5547,
+        6488
+      ],
+      "330-1_DJI_0062.jpg": [
+        5548,
+        6489
+      ],
+      "330-1_DJI_0063.jpg": [
+        5549,
+        6490
+      ],
+      "330-1_DJI_0064.jpg": [
+        5550,
+        6491
+      ],
+      "330-1_DJI_0065.jpg": [
+        5551,
+        6492
+      ]
+    },
+    "annotation_sha256": "7c799a618eb7191d45c8e9ded7c42736f6b21f0025e98d361d21be61830583f7",
+    "class_counts": {
+      "yoke": 1343,
+      "yoke suspension": 5270,
+      "spacer": 72,
+      "stockbridge damper": 5699,
+      "lightning rod shackle": 170,
+      "lightning rod suspension": 618,
+      "polymer insulator": 2389,
+      "glass insulator": 2015,
+      "tower id plate": 198,
+      "vari-grip": 846,
+      "polymer insulator lower shackle": 1460,
+      "polymer insulator upper shackle": 1315,
+      "polymer insulator tower shackle": 47,
+      "glass insulator big shackle": 110,
+      "glass insulator small shackle": 128,
+      "glass insulator tower shackle": 98,
+      "spiral damper": 831,
+      "sphere": 26
+    },
+    "absent_classes": [],
+    "square_resized_box_sizes_diagnostic": {
+      "512": {
+        "large": 11008,
+        "medium": 10858,
+        "small": 769
+      },
+      "640": {
+        "large": 12599,
+        "medium": 9788,
+        "small": 248
+      },
+      "960": {
+        "large": 16791,
+        "medium": 5826,
+        "small": 18
+      }
+    },
+    "prepared_images": 7889,
+    "prepared_annotations": 22296,
+    "prepared_class_counts": {
+      "yoke": 1321,
+      "yoke suspension": 5210,
+      "spacer": 68,
+      "stockbridge damper": 5608,
+      "lightning rod shackle": 164,
+      "lightning rod suspension": 606,
+      "polymer insulator": 2350,
+      "glass insulator": 2015,
+      "tower id plate": 196,
+      "vari-grip": 827,
+      "polymer insulator lower shackle": 1432,
+      "polymer insulator upper shackle": 1301,
+      "polymer insulator tower shackle": 42,
+      "glass insulator big shackle": 110,
+      "glass insulator small shackle": 128,
+      "glass insulator tower shackle": 98,
+      "spiral damper": 805,
+      "sphere": 15
+    }
+  },
+  "val": {
+    "images": 2626,
+    "annotations": 6324,
+    "unique_image_files": 2626,
+    "duplicate_filenames": {},
+    "annotation_sha256": "528c872d120dfc2b411a124535535cf2a4189b4101516d17d5261fbb80b64951",
+    "class_counts": {
+      "yoke": 318,
+      "yoke suspension": 1250,
+      "spacer": 22,
+      "stockbridge damper": 1254,
+      "lightning rod shackle": 25,
+      "lightning rod suspension": 92,
+      "polymer insulator": 855,
+      "glass insulator": 963,
+      "tower id plate": 44,
+      "vari-grip": 162,
+      "polymer insulator lower shackle": 382,
+      "polymer insulator upper shackle": 377,
+      "polymer insulator tower shackle": 10,
+      "glass insulator big shackle": 149,
+      "glass insulator small shackle": 135,
+      "glass insulator tower shackle": 97,
+      "spiral damper": 189,
+      "sphere": 0
+    },
+    "absent_classes": [
+      "sphere"
+    ],
+    "square_resized_box_sizes_diagnostic": {
+      "512": {
+        "large": 3750,
+        "medium": 2440,
+        "small": 134
+      },
+      "640": {
+        "large": 4137,
+        "medium": 2132,
+        "small": 55
+      },
+      "960": {
+        "large": 5089,
+        "medium": 1228,
+        "small": 7
+      }
+    },
+    "prepared_images": 2626,
+    "prepared_annotations": 6324,
+    "prepared_class_counts": {
+      "yoke": 318,
+      "yoke suspension": 1250,
+      "spacer": 22,
+      "stockbridge damper": 1254,
+      "lightning rod shackle": 25,
+      "lightning rod suspension": 92,
+      "polymer insulator": 855,
+      "glass insulator": 963,
+      "tower id plate": 44,
+      "vari-grip": 162,
+      "polymer insulator lower shackle": 382,
+      "polymer insulator upper shackle": 377,
+      "polymer insulator tower shackle": 10,
+      "glass insulator big shackle": 149,
+      "glass insulator small shackle": 135,
+      "glass insulator tower shackle": 97,
+      "spiral damper": 189,
+      "sphere": 0
+    }
+  },
+  "filename_overlap": 0,
+  "filename_prefix_overlap_not_confirmed_tower_identity": []
+}

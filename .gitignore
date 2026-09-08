@@ -1,0 +1,11 @@
+.venv/
+data/
+outputs/
+weights/
+logs/
+__pycache__/
+.pytest_cache/
+.wheelhouse/
+*.pyc
+third_party/*.tar.gz
+release_assets/

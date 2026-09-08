@@ -1,0 +1,92 @@
+[
+  {
+    "label": 0,
+    "category_id": 1,
+    "name": "yoke"
+  },
+  {
+    "label": 1,
+    "category_id": 2,
+    "name": "yoke suspension"
+  },
+  {
+    "label": 2,
+    "category_id": 3,
+    "name": "spacer"
+  },
+  {
+    "label": 3,
+    "category_id": 4,
+    "name": "stockbridge damper"
+  },
+  {
+    "label": 4,
+    "category_id": 5,
+    "name": "lightning rod shackle"
+  },
+  {
+    "label": 5,
+    "category_id": 6,
+    "name": "lightning rod suspension"
+  },
+  {
+    "label": 6,
+    "category_id": 7,
+    "name": "polymer insulator"
+  },
+  {
+    "label": 7,
+    "category_id": 8,
+    "name": "glass insulator"
+  },
+  {
+    "label": 8,
+    "category_id": 9,
+    "name": "tower id plate"
+  },
+  {
+    "label": 9,
+    "category_id": 10,
+    "name": "vari-grip"
+  },
+  {
+    "label": 10,
+    "category_id": 11,
+    "name": "polymer insulator lower shackle"
+  },
+  {
+    "label": 11,
+    "category_id": 12,
+    "name": "polymer insulator upper shackle"
+  },
+  {
+    "label": 12,
+    "category_id": 13,
+    "name": "polymer insulator tower shackle"
+  },
+  {
+    "label": 13,
+    "category_id": 14,
+    "name": "glass insulator big shackle"
+  },
+  {
+    "label": 14,
+    "category_id": 15,
+    "name": "glass insulator small shackle"
+  },
+  {
+    "label": 15,
+    "category_id": 16,
+    "name": "glass insulator tower shackle"
+  },
+  {
+    "label": 16,
+    "category_id": 17,
+    "name": "spiral damper"
+  },
+  {
+    "label": 17,
+    "category_id": 18,
+    "name": "sphere"
+  }
+]

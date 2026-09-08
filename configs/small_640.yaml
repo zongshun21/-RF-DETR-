@@ -1,0 +1,35 @@
+model:
+  variant: small
+  pretrain_weights: weights/rf-detr-small.pth
+  amp: true
+train:
+  dataset_dir: data/insplad
+  dataset_file: roboflow
+  output_dir: outputs/small_640
+  resolution: 640
+  epochs: 150
+  batch_size: 32
+  grad_accum_steps: 1
+  eval_batch_size: 32
+  devices: 1
+  accelerator: gpu
+  seed: 42
+  lr: 0.0001
+  lr_encoder: 0.00015
+  lr_drop: 100
+  weight_decay: 0.0001
+  amp_dtype: bf16
+  use_ema: true
+  multi_scale: false
+  expanded_scales: false
+  scale_jitter: false
+  augmentation_backend: torchvision
+  num_workers: 4
+  checkpoint_interval: 10
+  eval_max_dets: 100
+  log_per_class_metrics: true
+  tensorboard: true
+  wandb: false
+  run_test: false
+  early_stopping: false
+  progress_bar: tqdm

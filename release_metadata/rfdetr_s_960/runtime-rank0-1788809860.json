@@ -1,0 +1,8 @@
+{
+  "elapsed_seconds": 38583.51561307302,
+  "device": 0,
+  "device_name": "NVIDIA GeForce RTX 4090",
+  "peak_allocated_gib": 19.34098529815674,
+  "peak_reserved_gib": 21.970703125,
+  "note": "PyTorch allocator peak in this process; excludes other processes/driver allocations."
+}

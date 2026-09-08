@@ -1,0 +1,172 @@
+{
+  "AP": 0.7540937579285564,
+  "AP50": 0.9147156245760429,
+  "AP75": 0.7933922994927203,
+  "AP_small": null,
+  "AP_medium": 0.4831066529171658,
+  "AP_large": 0.7602639329454145,
+  "AR1": 0.624977526306778,
+  "AR10": 0.8409648102492542,
+  "AR100": 0.8633085730251159,
+  "AR_small": null,
+  "AR_medium": 0.6269338869370809,
+  "AR_large": 0.8690363878450231,
+  "images": 2626,
+  "max_dets": 100,
+  "absent_classes": [
+    "sphere"
+  ],
+  "per_class": [
+    {
+      "category_id": 1,
+      "name": "yoke",
+      "instances": 318,
+      "AP": 0.9018296020722555,
+      "AP50": 0.9642139281255033,
+      "AR100": 0.9584905660377359
+    },
+    {
+      "category_id": 2,
+      "name": "yoke suspension",
+      "instances": 1250,
+      "AP": 0.8661203218521302,
+      "AP50": 0.9879569516428548,
+      "AR100": 0.90008
+    },
+    {
+      "category_id": 3,
+      "name": "spacer",
+      "instances": 22,
+      "AP": 0.49102987501311135,
+      "AP50": 0.9859735973597361,
+      "AR100": 0.6863636363636364
+    },
+    {
+      "category_id": 4,
+      "name": "stockbridge damper",
+      "instances": 1254,
+      "AP": 0.8708418509755069,
+      "AP50": 0.9776367561281998,
+      "AR100": 0.9155502392344499
+    },
+    {
+      "category_id": 5,
+      "name": "lightning rod shackle",
+      "instances": 25,
+      "AP": 0.6523323984744147,
+      "AP50": 0.8440811447684592,
+      "AR100": 0.8160000000000001
+    },
+    {
+      "category_id": 6,
+      "name": "lightning rod suspension",
+      "instances": 92,
+      "AP": 0.9294155900944527,
+      "AP50": 1.0,
+      "AR100": 0.9576086956521739
+    },
+    {
+      "category_id": 7,
+      "name": "polymer insulator",
+      "instances": 855,
+      "AP": 0.9655572226653442,
+      "AP50": 0.9875913650889494,
+      "AR100": 0.9833918128654972
+    },
+    {
+      "category_id": 8,
+      "name": "glass insulator",
+      "instances": 963,
+      "AP": 0.9364372382461716,
+      "AP50": 0.9783964401841632,
+      "AR100": 0.9731048805815161
+    },
+    {
+      "category_id": 9,
+      "name": "tower id plate",
+      "instances": 44,
+      "AP": 0.9969876371349534,
+      "AP50": 1.0,
+      "AR100": 1.0
+    },
+    {
+      "category_id": 10,
+      "name": "vari-grip",
+      "instances": 162,
+      "AP": 0.9687011753010459,
+      "AP50": 0.9979839151105911,
+      "AR100": 0.9833333333333334
+    },
+    {
+      "category_id": 11,
+      "name": "polymer insulator lower shackle",
+      "instances": 382,
+      "AP": 0.6432247725929827,
+      "AP50": 0.8940110787476252,
+      "AR100": 0.7410994764397906
+    },
+    {
+      "category_id": 12,
+      "name": "polymer insulator upper shackle",
+      "instances": 377,
+      "AP": 0.8742168976256054,
+      "AP50": 0.9830791443166229,
+      "AR100": 0.9198938992042439
+    },
+    {
+      "category_id": 13,
+      "name": "polymer insulator tower shackle",
+      "instances": 10,
+      "AP": 0.39561184571055874,
+      "AP50": 0.9351314441789003,
+      "AR100": 0.69
+    },
+    {
+      "category_id": 14,
+      "name": "glass insulator big shackle",
+      "instances": 149,
+      "AP": 0.4223355891957821,
+      "AP50": 0.5990201840556725,
+      "AR100": 0.7563758389261744
+    },
+    {
+      "category_id": 15,
+      "name": "glass insulator small shackle",
+      "instances": 135,
+      "AP": 0.4069059596780004,
+      "AP50": 0.6980333288485656,
+      "AR100": 0.6562962962962964
+    },
+    {
+      "category_id": 16,
+      "name": "glass insulator tower shackle",
+      "instances": 97,
+      "AP": 0.5387437542246986,
+      "AP50": 0.7175063842413858,
+      "AR100": 0.7587628865979382
+    },
+    {
+      "category_id": 17,
+      "name": "spiral damper",
+      "instances": 189,
+      "AP": 0.9593021539284454,
+      "AP50": 0.9995499549954996,
+      "AR100": 0.9798941798941799
+    },
+    {
+      "category_id": 18,
+      "name": "sphere",
+      "instances": 0,
+      "AP": null,
+      "AP50": null,
+      "AR100": null
+    }
+  ],
+  "checkpoint": "./outputs/small_960_20260907_045435/checkpoint_best_total.pth",
+  "resolution": 960,
+  "precision": "bf16",
+  "preprocessing": "official torchvision val pipeline (antialias=True)",
+  "debug_subset": false,
+  "inference_wall_seconds_including_io": 129.59982387907803,
+  "evaluation_protocol": "COCO bbox, original image pixels, maxDets=[1,10,100], scores unfiltered"
+}
