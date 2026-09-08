@@ -1,8 +1,8 @@
-# Released weights
+# Published weights
 
-Release tag: `v1.0-insplad-baselines`.
-
-Download and verify both models:
+GitHub rejects individual files larger than 100 MB. Both best checkpoints are
+therefore versioned as ordered 8 MiB chunks in `model_weights/chunks/`.
+Reconstruct and verify both original files:
 
 ```bash
 bash scripts/download_release_weights.sh
@@ -15,9 +15,10 @@ Expected files:
 | `rfdetr_s_insplad_640_best.pth` | RF-DETR-S | 640 | 18 |
 | `rfdetr_s_insplad_960_best.pth` | RF-DETR-S | 960 | 18 |
 
-The release also contains `SHA256SUMS` and a metadata archive with the exact
-training configuration, metric history, model configuration, runtime record and
-full independent COCO evaluation outputs.
+`model_weights/SHA256SUMS` records the hashes of the reconstructed checkpoints.
+`release_metadata/` contains the exact training configuration, metric history,
+model configuration, runtime record and full independent COCO evaluation
+metrics. Do not load an individual `.part-*` file as a checkpoint.
 
 Evaluate a downloaded model:
 

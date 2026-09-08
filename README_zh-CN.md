@@ -105,7 +105,8 @@ CUDA_VISIBLE_DEVICES=0 python train.py \
 bash scripts/download_release_weights.sh
 ```
 
-权重下载到 `weights/releases/`，脚本会自动进行 SHA256 校验。评估 640 模型：
+最佳权重以 GitHub 可接受的分块形式保存在 `model_weights/chunks/`。脚本将它们
+重组到 `weights/releases/`，并自动进行 SHA256 校验。评估 640 模型：
 
 ```bash
 CUDA_VISIBLE_DEVICES=0 python evaluate.py \

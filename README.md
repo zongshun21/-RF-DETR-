@@ -23,10 +23,9 @@ single run. InsPLAD has no independent test split in this project.
 
 These numbers use the repository's independent full-validation COCO evaluator
 on each run's best checkpoint. Full metric histories, per-class results and
-serialized configurations are in `release_metadata/`. Download
-the best inference checkpoints from the
-[`v1.0-insplad-baselines`](https://github.com/zongshun21/-RF-DETR-/releases/tag/v1.0-insplad-baselines)
-release after it is published.
+serialized configurations are in `release_metadata/`. The best inference
+checkpoints are stored as GitHub-safe chunks under `model_weights/chunks/`.
+The supplied script reconstructs and verifies the original `.pth` files.
 
 ## Repository layout
 
@@ -35,6 +34,7 @@ release after it is published.
 ├── configs/                    # 512/640/960 and smoke YAML configurations
 ├── datasets/InsPLAD-det/       # COCO annotations, audit and data license
 ├── docs/                       # implementation, dataset, training and weight guides
+├── model_weights/chunks/       # split 640/960 best checkpoints
 ├── release_metadata/           # exact configurations and complete metric histories
 ├── reports/                    # validation record and conflict previews
 ├── scripts/                    # setup, weight download and conflict rendering
@@ -134,7 +134,7 @@ Effective batch size is `batch_size × grad_accum_steps × devices`. See
 
 ## Evaluation and prediction
 
-Download the released fine-tuned weights:
+Reconstruct and verify the published fine-tuned weights:
 
 ```bash
 bash scripts/download_release_weights.sh
