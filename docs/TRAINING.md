@@ -42,6 +42,9 @@ are under `release_metadata/`.
 These are independent full-validation COCO results from each run's selected
 best checkpoint. They are not test-set results and do not establish statistical
 significance. Training-time metric histories are retained for audit.
+The table records the completed runs used for the published checkpoints. For
+new runs, `configs/small_640.yaml` defaults to batch 16 as the conservative
+24 GB GPU starting point.
 
 Run each resolution on a separate GPU:
 

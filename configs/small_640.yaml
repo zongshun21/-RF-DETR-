@@ -8,7 +8,7 @@ train:
   output_dir: outputs/small_640
   resolution: 640
   epochs: 150
-  batch_size: 32
+  batch_size: 16
   grad_accum_steps: 1
   eval_batch_size: 32
   devices: 1

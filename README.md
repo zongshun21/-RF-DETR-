@@ -26,6 +26,8 @@ on each run's best checkpoint. Full metric histories, per-class results and
 serialized configurations are in `release_metadata/`. The best inference
 checkpoints are stored as GitHub-safe chunks under `model_weights/chunks/`.
 The supplied script reconstructs and verifies the original `.pth` files.
+The table records the batches used by the completed runs; the current 640
+starting configuration defaults to batch 16 for a 24 GB GPU.
 
 ## Repository layout
 
